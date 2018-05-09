@@ -1,3 +1,4 @@
+#include "Vector.h" //获得接口
 Vector::Vector(int s)           //构造函数的定义
     :elem{new double[s]},sz{s}  //初始化成员
 {

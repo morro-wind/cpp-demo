@@ -1,0 +1,6 @@
+void user(int sz) noexcept
+{
+Vector v(sz);
+iota(&v[0],&v[sz],1);//为v赋值1,2,3,4...
+//...
+}
